@@ -21,12 +21,12 @@ const RSVP: React.FC = () => {
             
             <div className="bg-amber-100 p-6 rounded-lg border-l-4 border-amber-500">
               <p className="text-gray-700">
-                <strong>Important :</strong> Un QR Code d'accès à la soirée sera transmis le 20 mars 2025 aux invités confirmés.
+              <strong>Important :</strong> Un QR Code d&apos;accès à la soirée sera transmis le 20 mars 2025 aux invités confirmés.
               </p>
             </div>
 
             <p className="text-gray-600">
-              Pour toute question ou information complémentaire, n'hésitez pas à nous contacter.
+            Pour toute question ou information complémentaire, n&apos;hésitez pas à nous contacter.
             </p>
 
             <div className="pt-6">
