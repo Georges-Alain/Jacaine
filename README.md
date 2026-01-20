@@ -1,6 +1,6 @@
-# Site de Mariage - Willy & Princilia
+# Site de Mariage - Jacques & Germaine
 
-Un site web élégant et moderne pour célébrer l'union de Willy et Princilia.
+Un site web élégant et moderne pour célébrer l'union de Jacques et Germaine.
 
 ## 🚀 Technologies
 
@@ -91,4 +91,4 @@ Les styles peuvent être personnalisés dans `tailwind.config.js` et les composa
 
 ## 📄 Licence
 
-Projet privé pour le mariage de Willy & Princilia.
+Projet privé pour le mariage de Jacques & Germaine.
