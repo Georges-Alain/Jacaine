@@ -51,7 +51,7 @@ const Vision: React.FC = () => {
               </div>
 
               <p className="text-center font-semibold text-gray-800">
-                Que le Seigneur bénisse chacun de vous, et que Sa paix repose sur nos maisons et nos générations.
+                Pour toute question ou information complémentaire, n'hésitez pas à nous contacter.
               </p>
             </div>
           </div>
