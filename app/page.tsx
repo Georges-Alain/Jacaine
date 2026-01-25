@@ -40,7 +40,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-white text-gray-800 font-serif">
+    <div className="min-h-screen bg-white text-gray-800 font-serif w-full overflow-x-hidden">
       <Navigation activeSection={activeSection} onNavigate={scrollToSection} />
       <Hero onScrollDown={() => scrollToSection('story')} />
       <Story />

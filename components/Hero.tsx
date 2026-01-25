@@ -11,7 +11,7 @@ const Hero: React.FC<HeroProps> = ({ onScrollDown }) => {
   const slides = useMemo(() => {
     // Tu peux remplacer ces 3 fichiers par tes vraies photos, en gardant les mêmes chemins
     // (ou change les chemins vers /public/images/...).
-    return ['/hero/slide-1.svg', '/hero/slide-2.svg', '/hero/slide-3.svg'];
+    return ['/hero/Jacaine12.png', '/hero/Jacaine14.png', '/hero/Jacaine16.png'];
   }, []);
 
   const [activeIndex, setActiveIndex] = useState(0);
@@ -72,12 +72,12 @@ const Hero: React.FC<HeroProps> = ({ onScrollDown }) => {
         </div>
 
         <h1 className="mt-7 md:mt-8 font-bold text-white drop-shadow-[0_10px_40px_rgba(0,0,0,0.55)]">
-          <div className="space-y-3 md:space-y-4">
-            {/* Jacques : alignement plutôt à gauche */}
-            <div className="flex justify-center md:justify-start">
+          <div className="space-y-3 md:space-y-4 flex flex-col items-center">
+            {/* Jacques : centré sur mobile */}
+            <div className="flex justify-center w-full">
               <span
                 className={[
-                  'block text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-majestic name-glow',
+                  'block text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-majestic name-glow text-center',
                   'transition-all duration-700 ease-out will-change-transform will-change-opacity',
                   activeName === 'first'
                     ? 'opacity-100 translate-y-0'
@@ -89,17 +89,17 @@ const Hero: React.FC<HeroProps> = ({ onScrollDown }) => {
             </div>
 
             {/* Symbole & centré */}
-            <div className="flex justify-center">
-              <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-majestic bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200 text-transparent bg-clip-text tracking-[0.35em]">
+            <div className="flex justify-center w-full">
+              <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-majestic bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200 text-transparent bg-clip-text tracking-[0.35em] text-center">
                 &amp;
               </span>
             </div>
 
-            {/* Germaine : alignement plutôt à droite */}
-            <div className="flex justify-center md:justify-end">
+            {/* Germaine : centré sur mobile */}
+            <div className="flex justify-center w-full">
               <span
                 className={[
-                  'block text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-majestic name-glow',
+                  'block text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-majestic name-glow text-center',
                   'transition-all duration-700 ease-out will-change-transform will-change-opacity',
                   activeName === 'second'
                     ? 'opacity-100 translate-y-0'
@@ -115,7 +115,7 @@ const Hero: React.FC<HeroProps> = ({ onScrollDown }) => {
         <div className="mt-7 md:mt-9 h-[2px] w-40 md:w-56 bg-gradient-to-r from-transparent via-amber-400 to-transparent mx-auto animate-fade-up-delayed-3" />
 
         <p className="mt-6 text-white/85 text-base md:text-lg italic animate-fade-up-delayed-4">
-          29 Mars 2025
+          18 Avril 2026
         </p>
 
         <button

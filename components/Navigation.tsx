@@ -28,7 +28,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection, onNavigate }) =>
     { label: 'Invitation', id: 'invitation' },
     { label: 'Galerie', id: 'gallery' },
     { label: 'RSVP', id: 'rsvp' },
-    { label: 'Cadeaux', id: 'gifts' }
+    { label: 'Infos Pratiques', id: 'gifts' }
   ];
 
   const handleClick = (id: string) => {
@@ -40,9 +40,9 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection, onNavigate }) =>
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-lg py-4' : 'bg-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
         <div className="text-2xl font-bold">
-          <span className="text-amber-600">W</span>
+          <span className="text-amber-600">J</span>
           <Heart className="inline w-5 h-5 text-amber-500 mx-1" />
-          <span className="text-amber-600">P</span>
+          <span className="text-amber-600">G</span>
         </div>
         
         {/* Desktop Menu */}
