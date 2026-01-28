@@ -14,6 +14,7 @@ const Invitation: React.FC = () => {
             Programme des Festivités
           </h2>
           <div className="h-1 w-20 sm:w-24 bg-amber-500 mx-auto"></div>
+            <p className="text-sm sm:text-base text-gray-600 font-bold italic">Dress code : Blanc Or </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 justify-items-center">

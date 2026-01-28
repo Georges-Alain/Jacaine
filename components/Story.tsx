@@ -44,8 +44,7 @@ const Story: React.FC = () => {
               <p className="text-amber-600 text-lg sm:text-xl md:text-2xl italic mb-4 sm:mb-6 text-center">✨ Le Marié ✨</p>
               <div className="max-w-md mx-auto px-4 sm:px-6 w-full">
                 <p className="text-gray-600 leading-relaxed text-center text-sm sm:text-base md:text-lg">
-                chrétien engagé toujours au service de la sociéte 
-                grand blagueur qui aime rire et faire sourire autour de lui.✨
+                Homme Croyant toujours au service de la société grand blagueur qui aime rire.✨
                 </p>
               </div>
             </div>
