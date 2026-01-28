@@ -17,22 +17,28 @@ const Gifts: React.FC = () => {
           <div className="space-y-6">
             {/* Message de remerciement */}
             <div className="text-center">
-              <p className="text-lg md:text-xl text-gray-700 leading-relaxed italic mb-6">
+              <p className="text-lg md:text-xl text-gray-700 leading-relaxed italic mb-4 sm:mb-6">
                 Chers invités,
               </p>
-              <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                Nous vous remercions de votre présence à notre événement. Pour garantir la réussite de cette journée, nous vous demandons de bien vouloir respecter les heures indiquées plus spécialement l&apos;heure de la soirée qui début à <span className="font-bold text-amber-600">18h</span> car nous avons un traiteur qui fera du service au plat et partira à <span className="font-bold text-amber-600">21h</span> et je tiens à repréciser que la fin de la soirée est à <span className="font-bold text-amber-600">1h</span>.
-              </p>
+              <div className="timeline-description-container max-h-32 sm:max-h-40 overflow-y-auto">
+                <p className="text-base md:text-lg text-gray-700 leading-relaxed">
+                  Nous vous remercions de votre présence à notre événement. Pour garantir la réussite de cette journée, nous vous demandons de bien vouloir respecter les heures indiquées, spécialement l&apos;heure de la soirée qui débute à <span className="font-bold text-amber-600">18h</span> car nous avons un traiteur qui fera du service au plat et partira à <span className="font-bold text-amber-600">21h</span> et je tiens à repréciser que la fin de la soirée est à <span className="font-bold text-amber-600">1h</span>.
+                </p>
+              </div>
             </div>
 
             {/* Message en rouge sur la ponctualité */}
-            <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
-              <p className="text-red-700 font-semibold text-center text-base md:text-lg leading-relaxed">
-                Votre ponctualité est essentielle pour nous permettre de commencer l&apos;événement à l&apos;heure prévue.
-              </p>
-              <p className="text-red-600 text-center mt-3 text-sm md:text-base">
-                Merci pour votre compréhension et votre coopération
-              </p>
+            <div className="bg-red-50 border-l-4 border-red-500 p-4 sm:p-6 rounded-lg">
+              <div className="timeline-description-container max-h-20 sm:max-h-24 overflow-y-auto">
+                <p className="text-red-700 font-semibold text-center text-base md:text-lg leading-relaxed">
+                  Votre ponctualité est essentielle pour nous permettre de commencer l&apos;événement à l&apos;heure prévue.
+                </p>
+              </div>
+              <div className="timeline-description-container max-h-16 sm:max-h-20 overflow-y-auto mt-3">
+                <p className="text-red-600 text-center text-sm md:text-base">
+                  Merci pour votre compréhension et votre coopération
+                </p>
+              </div>
             </div>
 
             {/* Note sur le service de garde */}

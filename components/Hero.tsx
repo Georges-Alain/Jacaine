@@ -11,7 +11,7 @@ const Hero: React.FC<HeroProps> = ({ onScrollDown }) => {
   const slides = useMemo(() => {
     // Tu peux remplacer ces 3 fichiers par tes vraies photos, en gardant les mêmes chemins
     // (ou change les chemins vers /public/images/...).
-    return ['/hero/Jacaine12.png', '/hero/Jacaine14.png', '/hero/Jacaine16.png'];
+    return ['/hero/Jacaine12.png', '/hero/Jacaine14.png', '/hero/Jacaine17.jpg'];
   }, []);
 
   const [activeIndex, setActiveIndex] = useState(0);

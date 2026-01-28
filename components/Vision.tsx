@@ -21,7 +21,7 @@ const Vision: React.FC = () => {
             Notre cœur
           </p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-2 sm:mb-3 font-majestic">Notre Vision</h2>
-          <div className="mobile-text-container max-w-2xl mx-auto">
+          <div className="timeline-description-container max-h-32 sm:max-h-40 overflow-y-auto max-w-2xl mx-auto">
             <p className="text-gray-600 text-sm md:text-base px-2">
               Que Dieu continue à nous faire grâce.
               Nous avons eu cinq enfants et, malgré les épreuves et les difficultés, nous avançons ensemble.
@@ -33,42 +33,52 @@ const Vision: React.FC = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] gap-6 sm:gap-8 lg:gap-10 items-start">
           <div className="bg-white/90 backdrop-blur-sm p-6 sm:p-8 md:p-10 rounded-xl sm:rounded-2xl shadow-2xl border border-amber-100 w-full">
-            <div className="mobile-text-container">
-              <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6 italic text-center">
+            <div className="timeline-description-container max-h-24 sm:max-h-28 overflow-y-auto mb-4 sm:mb-6">
+              <p className="text-base sm:text-lg text-gray-700 leading-relaxed italic text-center">
                 Aujourd&apos;hui, nous célébrons non seulement notre union, mais aussi le parcours que Dieu a tracé pour nous.
               </p>
             </div>
             
             <div className="space-y-4 sm:space-y-6 text-gray-600 leading-relaxed text-sm md:text-base">
-              <p>
-                Notre histoire est marquée par des épreuves et des bénédictions, des moments de joie et de défis. À travers tout cela, le Seigneur a été notre guide et notre force.
-              </p>
-              
-              <div className="bg-amber-50 p-6 rounded-xl border border-amber-100 shadow-sm">
-                <p className="italic text-gray-800">
-                  L&apos;amour est patient, il est plein de bonté ; l&apos;amour n&apos;est point envieux, il ne se vante point, il ne s&apos;enfle point d&apos;orgueil...
+              <div className="timeline-description-container max-h-24 sm:max-h-32 overflow-y-auto">
+                <p>
+                  Notre histoire est marquée par des épreuves et des bénédictions, des moments de joie et de défis. À travers tout cela, le Seigneur a été notre guide et notre force.
                 </p>
+              </div>
+              
+              <div className="bg-amber-50 p-4 sm:p-6 rounded-xl border border-amber-100 shadow-sm">
+                <div className="timeline-description-container max-h-20 sm:max-h-28 overflow-y-auto">
+                  <p className="italic text-gray-800">
+                    L&apos;amour est patient, il est plein de bonté ; l&apos;amour n&apos;est point envieux, il ne se vante point, il ne s&apos;enfle point d&apos;orgueil...
+                  </p>
+                </div>
                 <p className="text-right text-xs md:text-sm mt-3 text-amber-700 font-semibold">
                   — 1 Corinthiens 13:4-7
                 </p>
               </div>
 
-              <p>
-                En tant que couple uni, nous nous engageons à bâtir notre foyer sur ces principes divins. Nous aspirons à être des témoins de l&apos;amour de Christ dans notre vie quotidienne, à servir ensemble dans Son Royaume, et à élever nos enfants dans la crainte de Dieu.
-              </p>
-
-              <div className="bg-amber-50 p-6 rounded-xl border border-amber-100 shadow-sm">
-                <p className="italic text-gray-800">
-                  Voici, je me tiens à la porte et je frappe. Si quelqu&apos;un entend ma voix et ouvre la porte, j&apos;entrerai chez lui, je souperai avec lui, et lui avec moi.
+              <div className="timeline-description-container max-h-32 sm:max-h-40 overflow-y-auto">
+                <p>
+                  En tant que couple uni, nous nous engageons à bâtir notre foyer sur ces principes divins. Nous aspirons à être des témoins de l&apos;amour de Christ dans notre vie quotidienne, à servir ensemble dans Son Royaume, et à élever nos enfants dans la crainte de Dieu.
                 </p>
+              </div>
+
+              <div className="bg-amber-50 p-4 sm:p-6 rounded-xl border border-amber-100 shadow-sm">
+                <div className="timeline-description-container max-h-20 sm:max-h-28 overflow-y-auto">
+                  <p className="italic text-gray-800">
+                    Voici, je me tiens à la porte et je frappe. Si quelqu&apos;un entend ma voix et ouvre la porte, j&apos;entrerai chez lui, je souperai avec lui, et lui avec moi.
+                  </p>
+                </div>
                 <p className="text-right text-xs md:text-sm mt-3 text-amber-700 font-semibold">
                   — Apocalypse 3:20
                 </p>
               </div>
 
-              <p className="text-center font-semibold text-gray-800">
-                Pour toute question ou information complémentaire, n'hésitez pas à nous contacter.
-              </p>
+              <div className="timeline-description-container max-h-16 sm:max-h-20 overflow-y-auto">
+                <p className="text-center font-semibold text-gray-800">
+                  Pour toute question ou information complémentaire, n'hésitez pas à nous contacter.
+                </p>
+              </div>
             </div>
           </div>
 
@@ -85,7 +95,7 @@ const Vision: React.FC = () => {
               <p className="text-xs uppercase tracking-[0.25em] text-amber-500 mb-2 text-center sm:text-left">Pilier 2</p>
               <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2 text-center sm:text-left">Famille</h3>
               <p className="text-sm text-gray-600 text-center sm:text-left">
-                Construire un foyer de paix, d&apos;écoute et de respect, où chaque membre trouve sa place et se sait aimé.
+                Construire un foyer de paix, d&apos;écoute et de respect, où chaque membre trouve sa place et se sent aimé.
               </p>
             </div>
 

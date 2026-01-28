@@ -38,12 +38,12 @@ const Invitation: React.FC = () => {
                 </div>
                 <div className="flex items-start gap-2 sm:gap-3">
                   <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-amber-500 mt-0.5 sm:mt-1 flex-shrink-0" />
-                  <div className="mobile-text-container flex-1">
+                  <div className="timeline-description-container max-h-20 sm:max-h-24 overflow-y-auto flex-1">
                     <span className="break-words leading-relaxed">{event.location}</span>
                   </div>
                 </div>
                 {event.details && (
-                  <div className="mobile-text-container pl-6 sm:pl-8">
+                  <div className="timeline-description-container max-h-16 sm:max-h-20 overflow-y-auto pl-6 sm:pl-8">
                     <p className="text-xs sm:text-sm italic text-gray-500 break-words leading-relaxed">
                       {event.details}
                     </p>

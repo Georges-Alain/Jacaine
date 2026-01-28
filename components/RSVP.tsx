@@ -93,12 +93,12 @@ const RSVP: React.FC = () => {
           <div className="space-y-4 sm:space-y-6">
             {/* Message d'invitation */}
             <div className="text-center space-y-3 sm:space-y-4">
-              <div className="mobile-text-container">
+              <div className="timeline-description-container max-h-20 sm:max-h-24 overflow-y-auto">
                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed px-2">
                   Afin de mieux préparer notre événement et de garantir sa réussite, nous serions heureux de vous compter parmi nos invités.
                 </p>
               </div>
-              <div className="mobile-text-container">
+              <div className="timeline-description-container max-h-16 sm:max-h-20 overflow-y-auto">
                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed font-semibold px-2">
                   Merci de bien vouloir nous confirmer votre présence
                 </p>
@@ -128,16 +128,16 @@ const RSVP: React.FC = () => {
               <div className="bg-gradient-to-br from-red-50 to-pink-50 p-4 sm:p-6 rounded-xl border-2 border-red-300 shadow-lg mt-4 sm:mt-6 animate-fade-up">
                 <div className="flex items-start gap-3 sm:gap-4">
                   <XCircle className="w-6 h-6 sm:w-8 sm:h-8 text-red-600 flex-shrink-0 mt-1" />
-                  <div className="flex-1 min-w-0">
-                    <p className="text-base sm:text-lg font-semibold text-red-800 mb-2 break-words">
-                      Nous sommes désolés de ne pas vous compter parmi nous
-                    </p>
-                    <div className="mobile-text-container">
-                      <p className="text-sm sm:text-base text-gray-700 leading-relaxed break-words">
-                        Votre réponse a été enregistrée. Nous respectons votre décision et vous remercions de nous avoir informés.
+                    <div className="flex-1 min-w-0">
+                      <p className="text-base sm:text-lg font-semibold text-red-800 mb-2 break-words">
+                        Nous sommes désolés de ne pas vous compter parmi nous
                       </p>
+                      <div className="timeline-description-container max-h-20 sm:max-h-24 overflow-y-auto">
+                        <p className="text-sm sm:text-base text-gray-700 leading-relaxed break-words">
+                          Votre réponse a été enregistrée. Nous respectons votre décision et vous remercions de nous avoir informés.
+                        </p>
+                      </div>
                     </div>
-                  </div>
                 </div>
                 <div className="mt-4">
                   <button
@@ -221,7 +221,7 @@ const RSVP: React.FC = () => {
                           Nous sommes heureux de vous compter parmi nos invités !
                         </p>
                         <div className="bg-white/80 p-3 sm:p-4 rounded-lg border border-green-200">
-                          <div className="mobile-text-container">
+                          <div className="timeline-description-container max-h-32 sm:max-h-40 overflow-y-auto">
                             <p className="text-sm sm:text-base text-gray-700 leading-relaxed break-words">
                               <span className="font-bold text-green-700">Avec tout l&apos;amour et la considération que nous avons pour vous,</span> nous vous avons attribué la table :{' '}
                               <span className="text-xl sm:text-2xl font-bold text-amber-600 block sm:inline mt-1 sm:mt-0">
@@ -253,7 +253,7 @@ const RSVP: React.FC = () => {
                         <p className="text-base sm:text-lg font-semibold text-amber-800 mb-2 break-words">
                           Nom non trouvé dans la liste
                         </p>
-                        <div className="mobile-text-container">
+                        <div className="timeline-description-container max-h-24 sm:max-h-32 overflow-y-auto">
                           <p className="text-sm sm:text-base text-gray-700 leading-relaxed break-words">
                             Le nom &quot;<span className="font-semibold">{guestName}</span>&quot; n&apos;a pas été trouvé dans notre liste d&apos;invités. 
                             Veuillez vérifier l&apos;orthographe ou nous contacter si vous pensez qu&apos;il s&apos;agit d&apos;une erreur.

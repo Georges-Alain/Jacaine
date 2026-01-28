@@ -71,7 +71,7 @@ const Story: React.FC = () => {
               <p className="text-amber-600 text-lg sm:text-xl md:text-2xl italic mb-4 sm:mb-6 text-center">✨ La Mariée ✨</p>
               <div className="max-w-md mx-auto px-4 sm:px-6 w-full">
                 <p className="text-gray-600 leading-relaxed text-center text-sm sm:text-base md:text-lg">
-                Chrétienne engagé et très social qui œuvre pour le bien de son entourage et de sa famille 💫
+                Chrétienne engagée et très sociale qui œuvre pour le bien de son entourage et de sa famille 💫
                 </p>
               </div>
             </div>
