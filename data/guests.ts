@@ -11,7 +11,7 @@ export interface Guest {
       'Mme Dikongue & Mme Kwedi',
       'Mr Nzinda Joseph & Mme',
       'Mr Patou & Mme',
-      'mama de James & Mr'
+      'Mme Diboussi & Mr'
     ],
   
     'NEW-BELL': [
@@ -187,6 +187,17 @@ export interface Guest {
       'Isabelle',
       'Dany',
       'Junior'
+    ],
+
+    'YABASSI': [
+      'Bébé ', 
+      'Rita',
+       'Iris',
+        'Hope & Mr',
+         'Lolita', 
+         'Nicaise',
+          'Mr & Mme Eteme',
+           'Mr Silvain & Mme'
     ]
   };
   

@@ -23,9 +23,7 @@ const Vision: React.FC = () => {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-2 sm:mb-3 font-majestic">Notre Vision</h2>
           <div className="timeline-description-container max-h-32 sm:max-h-40 overflow-y-auto max-w-2xl mx-auto">
             <p className="text-gray-600 text-sm md:text-base px-2">
-              Que Dieu continue à nous faire grâce.
-              Nous avons eu cinq enfants et, malgré les épreuves et les difficultés, nous avançons ensemble.
-              Bâtir notre foyer dans l&apos;Esprit Saint, aider nos proches et notre entourage, et élever nos enfants dans le chemin du Christ.
+            Que Dieu continue à nous faire grâce. Nous avons eu plusieurs enfants et, malgré les épreuves et les difficultés, nous avançons ensemble. Bâtir notre foyer dans l&apos;Esprit Saint, aider nos proches et notre entourage, et élever nos enfants dans le chemin du Christ.
             </p>
           </div>
           <div className="h-1 w-20 sm:w-24 bg-amber-500 mx-auto mt-4 sm:mt-6"></div>
